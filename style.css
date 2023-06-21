@@ -147,6 +147,10 @@ body {
 
 /* Desktop 998px */
 @media all and (min-width: 998px) {
+    .wrapper {
+        max-width: 960px;
+    }
+
     .header__container {
         justify-content: flex-start;
         gap: 30px;
@@ -167,6 +171,7 @@ body {
 
     .gallery {
         justify-content: space-between;
+        gap: 30px;
     }
 
     .gallery__image {
